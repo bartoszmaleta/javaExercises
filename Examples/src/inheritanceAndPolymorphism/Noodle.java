@@ -48,6 +48,9 @@ class Noodle {
 
         Spaetzle kaesespSpaetzle = new Spaetzle();
         kaesespSpaetzle.cook();
+
+        System.out.println("-------------------------------------------------");
+
     }
 
 }
