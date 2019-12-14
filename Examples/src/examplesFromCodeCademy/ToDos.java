@@ -33,6 +33,11 @@ class ToDos {
     System.out.println("\nPoirot's second to-do:");
     // Print Poirot's second to-do:
     System.out.println(poirotsToDos.get(1));
+
+
+    // Set each to-do below:
+    sherlocksToDos.set(1, "listen to Dr. Watson for amusement");
+    poirotsToDos.set(3, "listen to Captain Hastings for amusement");
     
   }
   
