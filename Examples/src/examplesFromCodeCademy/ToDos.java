@@ -33,7 +33,15 @@ class ToDos {
     System.out.println("\nPoirot's second to-do:");
     // Print Poirot's second to-do:
     System.out.println(poirotsToDos.get(1));
-    
+
+    System.out.println("-----------------------------------------");
+
+    // Calculate to-dos until case is solved:
+    int toDosUntilCaseSolved = sherlocksToDos.indexOf("solve the case");
+
+    System.out.println("ToDos until case solved: (the same number as index of String 'solve the case'");
+    System.out.println(toDosUntilCaseSolved);    
+
     System.out.println("-----------------------------------------");
 
     System.out.println(sherlocksToDos.toString());
