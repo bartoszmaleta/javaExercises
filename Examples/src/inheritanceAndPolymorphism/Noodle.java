@@ -28,6 +28,12 @@ class Noodle {
         return true;
     }
 
+    public String getCookPrep() {
+
+        return "Boil noodle for 7 minutes and add sauce.";
+
+    }
+
     public static void main(String[] args) {
 
         Pho phoChay = new Pho();
@@ -48,6 +54,20 @@ class Noodle {
 
         Spaetzle kaesespSpaetzle = new Spaetzle();
         kaesespSpaetzle.cook();
+
+        System.out.println("-------------------------------------------------");
+
+        Noodle spaghetti, ramen, pho;
+
+        spaghetti = new Spaghetti();
+        ramen = new Ramen();
+        pho = new Pho();
+
+        Noodle[] allTheNoodles = { spaghetti, ramen, pho };
+
+        for (Noodle noodle : allTheNoodles) {
+            System.out.println(noodle.getCookPrep());
+        }
 
         System.out.println("-------------------------------------------------");
 
