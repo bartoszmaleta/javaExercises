@@ -18,6 +18,7 @@ class Noodle {
     }
 
     public void cook() {
+        System.out.println("Boiling.");
 
         this.texture = "cooked";
 
@@ -45,7 +46,8 @@ class Noodle {
 
         System.out.println("-------------------------------------------------");
 
-        
+        Spaetzle kaesespSpaetzle = new Spaetzle();
+        kaesespSpaetzle.cook();
     }
 
 }
